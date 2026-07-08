@@ -1,28 +1,27 @@
 
 local Api = {
-    players = game:GetService("Players"),
-    run = game:GetService("RunService"),
-    uis = game:GetService("UserInputService"),
-    vim = game:GetService("VirtualInputManager"),
-    tween = game:GetService("TweenService"),
-    core = game:GetService("CoreGui"),
-    light = game:GetService("Lighting"),
-    http = game:GetService("HttpService"),
-    sound = game:GetService("SoundService"),
-    market = game:GetService("MarketplaceService"),
-    rep = game:GetService("ReplicatedStorage"),
-    text = game:GetService("TextService"),
+    Players = game:GetService("Players"),
+    Run = game:GetService("RunService"),
+    Uis = game:GetService("UserInputService"),
+    Vim = game:GetService("VirtualInputManager"),
+    Tween = game:GetService("TweenService"),
+    Core = game:GetService("CoreGui"),
+    Light = game:GetService("Lighting"),
+    Http = game:GetService("HttpService"),
+    Market = game:GetService("MarketplaceService"),
+    Rep = game:GetService("ReplicatedStorage"),
+    Text = game:GetService("TextService"),
     
-    player = game:GetService("Players").LocalPlayer,
-    name = game:GetService("Players").LocalPlayer.Name,
-    camera = workspace.CurrentCamera,
-    placeid = game.PlaceId,
+    Player = game:GetService("Players").LocalPlayer,
+    Name = game:GetService("Players").LocalPlayer.Name,
+    Camera = workspace.CurrentCamera,
+    PlaceId = game.PlaceId,
     
-    mouse = game:GetService("Players").LocalPlayer:GetMouse(),
-    screen = Instance.new("ScreenGui"),
+    Mouse = game:GetService("Players").LocalPlayer:GetMouse(),
+    Screen = Instance.new("ScreenGui"),
 
-    mobile = game:GetService("UserInputService").TouchEnabled and not game:GetService("UserInputService").MouseEnabled,
-    executor = identifyexecutor() or getexecutorname() or "Unknown",
+    Mobile = game:GetService("UserInputService").TouchEnabled and not game:GetService("UserInputService").MouseEnabled,
+    Executor = identifyexecutor() or getexecutorname() or "Unknown",
 
 }  
 
