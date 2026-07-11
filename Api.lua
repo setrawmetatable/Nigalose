@@ -69,7 +69,7 @@ function Api:Random()
 end
 
 function Api:Notification(text, time)
-    Notification:Notification(text, time)
+    Notification:Notification(text, time, Color3.fromRGB(255, 255, 255))
 end
 
 function Api:JoinDiscord(dscode)
