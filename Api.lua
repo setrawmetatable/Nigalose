@@ -1,3 +1,4 @@
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/setrawmetatable/Scripts/refs/heads/main/Notification"))()
 
 local Api = {
     Players = game:GetService("Players"),
@@ -34,7 +35,7 @@ local Function = {
 }
 
 function Api:Kick(text)
-    Api.player:Kick(text)
+    Api.Player:Kick(text)
     return
 end
 
