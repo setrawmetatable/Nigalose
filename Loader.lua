@@ -1,3 +1,5 @@
-if WYNF_OBFUSCATED then 
-	print("obf")
-end 
+if rawget(_G, "WYNF_OBFUSCATED") then
+    print("obf")
+else
+    print("not obf")
+end
