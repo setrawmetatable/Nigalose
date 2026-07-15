@@ -1,4 +1,1 @@
-
-LPH_NO_VIRTUALIZE(function()
-    print("Hello")
-end)()
+print(1)
