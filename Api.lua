@@ -49,14 +49,6 @@ function Api:CheckSupport()
     return true
 end
 
-function Api:GetScript(name)
-    local obj = game:FindFirstChild(name, true)
-    if obj then
-        return obj
-    end
-    return nil
-end
-
 function Api:Random()
 	local chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 	local name = ""
@@ -70,28 +62,6 @@ end
 
 function Api:Notification(text, time)
     Notification:Notification(text, time, Color3.fromRGB(255, 255, 255))
-end
-
-function Api:JoinDiscord(dscode)
-    local http = (syn and syn.request) or (psm and psm.request) or request
-    if http then
-        pcall(function()
-            local HttpService = game:GetService("HttpService")
-            http({
-                Url = "http://127.0.0.1:6463/rpc?v=1",
-                Method = "POST",
-                Headers = {
-                    ["Content-Type"] = "application/json",
-                    ["Origin"] = "https://discord.com"
-                },
-                Body = HttpService:JSONEncode({
-                    cmd = "INVITE_BROWSER",
-                    args = {code = dscode},
-                    nonce = HttpService:GenerateGUID(true)
-                })
-            })
-        end)
-    end
 end
 
 function Api:CheckDevice()
@@ -110,7 +80,6 @@ function Api:PrintNiga()
                       / /|  / / /_/ / /_/ / / /_/ (__  )  __/
                      /_/ |_/_/\__, /\__,_/_/\____/____/\___/ 
                              /____/   
-                                discord.gg/Gc5QkQCdFA
     ]])
 end
 
