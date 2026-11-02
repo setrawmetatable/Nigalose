@@ -3,7 +3,7 @@ local _V = {
   Scripts = {
     {
       Id = 9224753153,
-      Load = "https://raw.githubusercontent.com/setrawmetatable/Scripts/refs/heads/main/Project/Vagrant.lua",
+      Load = "https://raw.githubusercontent.com/setrawmetatable/Nigalose/refs/heads/main/Project/Vagrant.lua",
     },
     {
       Id = 4777055365,
