@@ -19,7 +19,7 @@ local _V = {
     },
     {
       Id = 1281592938,
-      Load = "https://raw.githubusercontent.com/setrawmetatable/Scripts/refs/heads/main/Project/ENTRENCHED.lua",
+      Load = "https://raw.githubusercontent.com/setrawmetatable/Nigalose/refs/heads/main/Project/ENTRENCHED.lua",
     },
   }
 }
