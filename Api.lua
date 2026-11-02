@@ -30,9 +30,9 @@ local Api = {
 }
 
 local Load = {
-    Esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/setrawmetatable/Extra/refs/heads/main/Esp.lua")),
-	Circle = loadstring(game:HttpGet("https://raw.githubusercontent.com/setrawmetatable/Extra/refs/heads/main/Crosshair")),
-	Effect = loadstring(game:HttpGet("https://raw.githubusercontent.com/setrawmetatable/Extra/refs/heads/main/Effect.lua")),
+    Esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/setrawmetatable/Nigalose/refs/heads/main/Module/Esp.lua")),
+	Circle = loadstring(game:HttpGet("https://raw.githubusercontent.com/setrawmetatable/Nigalose/refs/heads/main/Module/Circle.lua")),
+	Effect = loadstring(game:HttpGet("https://raw.githubusercontent.com/setrawmetatable/Nigalose/refs/heads/main/Module/Effect.lua")),
 }
 
 function Api:JoinDiscord()
