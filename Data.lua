@@ -7,7 +7,7 @@ local _V = {
     },
     {
       Id = 4777055365,
-      Load = "https://raw.githubusercontent.com/setrawmetatable/Scripts/refs/heads/main/Project/Rost.lua",
+      Load = "https://raw.githubusercontent.com/setrawmetatable/Nigalose/refs/heads/main/Project/Rost.lua",
     },
     {
       Id = 873703865,
