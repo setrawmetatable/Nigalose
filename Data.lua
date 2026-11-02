@@ -15,7 +15,7 @@ local _V = {
     },
     { 
       Id = 254394801,
-      Load = "https://raw.githubusercontent.com/setrawmetatable/Scripts/refs/heads/main/Project/KAT.lua",
+      Load = "https://raw.githubusercontent.com/setrawmetatable/Nigalose/refs/heads/main/Project/KAT.lua",
     },
     {
       Id = 1281592938,
