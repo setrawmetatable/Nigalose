@@ -4,13 +4,10 @@ local Api = {
     Uis = game:GetService("UserInputService"),
     Vim = game:GetService("VirtualInputManager"),
     Tween = game:GetService("TweenService"),
-    Core = gethui and gethui() or cloneref(game:GetService("CoreGui")),
     Light = game:GetService("Lighting"),
     Http = game:GetService("HttpService"),
     Market = game:GetService("MarketplaceService"),
     Rep = game:GetService("ReplicatedStorage"),
-    Text = game:GetService("TextService"),
-    Localization = game:GetService("LocalizationService"),
 
     Player = game:GetService("Players").LocalPlayer,
     Name = game:GetService("Players").LocalPlayer.Name,
@@ -18,11 +15,7 @@ local Api = {
     PlaceId = game.PlaceId,
 
     Mouse = game:GetService("Players").LocalPlayer:GetMouse(),
-    Screen = Instance.new("ScreenGui"),
-
-    Mobile = game:GetService("UserInputService").TouchEnabled and not game:GetService("UserInputService").MouseEnabled,
-    Executor = identifyexecutor() or getexecutorname() or "Unknown",
-    Request = (syn and syn.request) or (psm and psm.request) or request,
+	Core = gethui and gethui() or cloneref(game:GetService("CoreGui")),
 
     Esp = {},
     Circle = {},
